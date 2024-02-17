@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mukta&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/Src/img/favicon.ico" type="image/x-icon">
+    <title>Document</title>
+</head>
+
+<body>
+    <div onclick="esconder()" class="mascara-form"></div>
+    <header>
+
+
+        <img src="./Src/img/logo-header.png" alt="" class="img_header">
+
+        <a>HOME</a>
+        <a onclick="butao()">FALE CONOSCO</a>
+        <a>NOSSOS SERVIÇOS</a>
+
+
+
+    </header>
+    <div class="container">
+        <div class="container_video">
+            <video autoplay muted loop  class="video_mario">
+                <source src="./Src/img/video.mp4">
+            </video>
+
+            <div class="mascara"></div>
+        </div>
+
+        <div class="conteiner_left">
+            <img src="./Src/img/logo.png" alt="" class="img_logo_grand">
+            <p>
+                🔧 Encanadores Mario & Luigi - Resolvendo Seus Problemas Hidráulicos Com Estilo! 🔧
+            </p>
+            <p>
+                Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
+            </p>
+            <button onclick="butao()">Entre em Contato</button>
+            <button class="btn_trailer">Trailer Filme</button>
+       
+</div>
+
+        <img onclick="mudarTamanho()" src="./Src/img/mario.png" alt="" class="marioeluige ">
+        <a class="img_wts" href="https://wa.me/5571982035104" target="_blank"><img class="logo_wts" src="./Src/img/whatsapp.png" alt=""></a>
+
+    
+        <form action="https://formcarry.com/s/2wVCBCmkonq" method="POST" enctype="multipart/form-data"
+            class="fale-conosco">
+            <input type="text" placeholder="nome" name="nome">
+            <input type="tel" placeholder="telefone" name="telefone">
+            <textarea name="Observacao" id="Observacao" cols="30" rows="10"></textarea>
+            <button type="submit" class="btn_form">Pedir Orçamento</button>
+        </form>
+        </div>
+        <div class="modal">
+            <div class="conteudo-modal">
+                <span class="fecha-modal"> X </span>
+                <iframe id="video" width="560"  height="315" src="https://www.youtube.com/embed/Cb4WV4aXBpk" title="trailer oficial" frameborde ="1"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                >
+                </iframe>
+            </div>
+          </div>
+</body>
+<script src="SCRIPT.js"></script>
+
+</html>
